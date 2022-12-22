@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528C3882283BAAB400A1A4AC /* egeongul_ongul_ege_hw4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528C3881283BAAB400A1A4AC /* egeongul_ongul_ege_hw4.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		528C387C283BAAB400A1A4AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		528C387E283BAAB400A1A4AC /* egeongul_ongul_ege_hw4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = egeongul_ongul_ege_hw4; sourceTree = BUILT_PRODUCTS_DIR; };
+		528C3881283BAAB400A1A4AC /* egeongul_ongul_ege_hw4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = egeongul_ongul_ege_hw4.cpp; sourceTree = "<group>"; };
+		528C3888283BAADA00A1A4AC /* PhoneBook-sample2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PhoneBook-sample2.txt"; sourceTree = "<group>"; };
+		528C3889283BAADA00A1A4AC /* PhoneBook-sample3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PhoneBook-sample3.txt"; sourceTree = "<group>"; };
+		528C388A283BAADA00A1A4AC /* PhoneBook-shuffled.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PhoneBook-shuffled.txt"; sourceTree = "<group>"; };
+		528C388B283BAADA00A1A4AC /* PhoneBook-sample1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PhoneBook-sample1.txt"; sourceTree = "<group>"; };
+		52CA323F283D0B1E005C14D6 /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		528C387B283BAAB400A1A4AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528C3875283BAAB400A1A4AC = {
+			isa = PBXGroup;
+			children = (
+				528C3880283BAAB400A1A4AC /* egeongul_ongul_ege_hw4 */,
+				528C387F283BAAB400A1A4AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		528C387F283BAAB400A1A4AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528C387E283BAAB400A1A4AC /* egeongul_ongul_ege_hw4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		528C3880283BAAB400A1A4AC /* egeongul_ongul_ege_hw4 */ = {
+			isa = PBXGroup;
+			children = (
+				528C3881283BAAB400A1A4AC /* egeongul_ongul_ege_hw4.cpp */,
+				528C388B283BAADA00A1A4AC /* PhoneBook-sample1.txt */,
+				528C3888283BAADA00A1A4AC /* PhoneBook-sample2.txt */,
+				528C3889283BAADA00A1A4AC /* PhoneBook-sample3.txt */,
+				528C388A283BAADA00A1A4AC /* PhoneBook-shuffled.txt */,
+				52CA323F283D0B1E005C14D6 /* Sort.h */,
+			);
+			path = egeongul_ongul_ege_hw4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		528C387D283BAAB400A1A4AC /* egeongul_ongul_ege_hw4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528C3885283BAAB400A1A4AC /* Build configuration list for PBXNativeTarget "egeongul_ongul_ege_hw4" */;
+			buildPhases = (
+				528C387A283BAAB400A1A4AC /* Sources */,
+				528C387B283BAAB400A1A4AC /* Frameworks */,
+				528C387C283BAAB400A1A4AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = egeongul_ongul_ege_hw4;
+			productName = egeongul_ongul_ege_hw4;
+			productReference = 528C387E283BAAB400A1A4AC /* egeongul_ongul_ege_hw4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		528C3876283BAAB400A1A4AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					528C387D283BAAB400A1A4AC = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 528C3879283BAAB400A1A4AC /* Build configuration list for PBXProject "egeongul_ongul_ege_hw4" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 528C3875283BAAB400A1A4AC;
+			productRefGroup = 528C387F283BAAB400A1A4AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				528C387D283BAAB400A1A4AC /* egeongul_ongul_ege_hw4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		528C387A283BAAB400A1A4AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528C3882283BAAB400A1A4AC /* egeongul_ongul_ege_hw4.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		528C3883283BAAB400A1A4AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		528C3884283BAAB400A1A4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		528C3886283BAAB400A1A4AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		528C3887283BAAB400A1A4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		528C3879283BAAB400A1A4AC /* Build configuration list for PBXProject "egeongul_ongul_ege_hw4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528C3883283BAAB400A1A4AC /* Debug */,
+				528C3884283BAAB400A1A4AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528C3885283BAAB400A1A4AC /* Build configuration list for PBXNativeTarget "egeongul_ongul_ege_hw4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528C3886283BAAB400A1A4AC /* Debug */,
+				528C3887283BAAB400A1A4AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 528C3876283BAAB400A1A4AC /* Project object */;
+}
